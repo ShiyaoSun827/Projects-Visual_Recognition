@@ -1,8 +1,6 @@
 # Visual_Recognition
 
-# Part I: Logistic Regression in Deep Learning
-
-## Key Endeavors
+# Project I: Logistic Regression in Deep Learning
 
 ### Development and Assessment of Logistic Regression Models
 
