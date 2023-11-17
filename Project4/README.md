@@ -21,7 +21,13 @@ The MNISTDD-RGB dataset is split into three subsets: train, validation, and test
   * ➢ It is always the case that 𝑥_𝑚𝑎𝑥 – 𝑥_𝑚𝑖𝑛 = 𝑦_𝑚𝑎𝑥 – 𝑦_𝑚𝑖𝑛 = 28. This means that each bounding box has a size of 
 28 × 28 no matter how large or small the digit inside that box is.
 - **Segmentation Mask:** A 64×64 image with pixel values ranging from 0 to 10, where 10 represents the background.
-
+- **Training and Valid files:** Following are detailed descriptions of the 4 files, where {subset} denotes the name of the subset (train, valid or test) and 𝑁 is the number of samples:
+  * ❖ {subset}_X.npy: 2D matrix with dimension [𝑁, 12288] and containing the vectorized images. Each row is a single 
+vectorized RGB image of size 64 x 64 x 3
+* ❖ {subset}_Y.npy: 2D matrix with dimension [𝑁, 2] and containing the labels. Note that the labels are always in ascending 
+order in each row.
+* ❖ {subset}_bboxes.npy: 3D matrix with dimension [𝑁, 2, 4] and containing the bounding boxes. For more information, see the description of bounding boxes above.
+  * ❖ {subset}_seg.npy: 2D matrix with dimension [𝑁, 4096] and containing the pixel-wise labels. Each row is a single vectorized segmentation mask of size 64 x 64. The digit on top in the source image is also on top in the mask so the other one is occluded by it, i.e., any pixel occupied by both digits will have the label of the top one
 ### Task
 
 Provided with the train and validation sets for developing  methods.
