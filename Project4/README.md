@@ -34,3 +34,9 @@ Provided with the train and validation sets for developing  methods.
 - **pred_class:** Classification labels.
 - **pred_bboxes:** Detection bounding boxes.
 - **pred_seg:** Segmentation masks.
+
+### Reference  
+**How to Train YOLO v5 on a Custom Dataset**:https://blog.paperspace.com/train-yolov5-custom-data/  
+**How to Train A Custom Object Detection Model with YOLO v5**:https://towardsdatascience.com/how-to-train-a-custom-object-detection-model-with-yolo-v5-917e9ce13208  
+**YoloV5/V8**:https://github.com/ultralytics/yolov5  
+**Unet**:https://github.com/open-mmlab/mmsegmentation
