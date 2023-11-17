@@ -1,6 +1,6 @@
 ## Object Detection and Semantic Segmentation on MNIST Double Digits RGB (MNISTDD-RGB)
 
-Welcome to Assignment 4 in CMPUT 328, where we explore the realms of object detection and semantic segmentation using the MNIST Double Digits RGB dataset.
+
 
 ### Overview
 
