@@ -35,7 +35,10 @@ Provided with the train and validation sets for developing  methods.
 - **pred_bboxes:** Detection bounding boxes.
 - **pred_seg:** Segmentation masks.
 ### Process .npy files  
-  *Use train.py and  text_ann.py to trasform {subset}_X.npy to .png images and trasform {subset}_Y.npy to .txt labels
+  * Use train.py and  text_ann.py to trasform {subset}_X.npy to .png images and trasform {subset}_Y.npy to .txt labels  
+### Model  
+  * YoloV5 and YoloV8
+  * Unet
 ### Reference  
 **How to Train YOLO v5 on a Custom Dataset**:https://blog.paperspace.com/train-yolov5-custom-data/  
 **How to Train A Custom Object Detection Model with YOLO v5**:https://towardsdatascience.com/how-to-train-a-custom-object-detection-model-with-yolo-v5-917e9ce13208  
